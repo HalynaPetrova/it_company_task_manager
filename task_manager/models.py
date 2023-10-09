@@ -15,6 +15,9 @@ class Position(models.Model):
 
 class Worker(AbstractUser):
     position = models.ForeignKey(Position, on_delete=models.CASCADE, null=True)
+    image = models.ImageField(null=True,
+                              blank=True,
+                              upload_to="static/avatar")
 
     class Meta:
         verbose_name = "worker"
