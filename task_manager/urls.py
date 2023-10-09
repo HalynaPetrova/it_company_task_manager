@@ -4,8 +4,14 @@ from .views import (
     index,
     TaskListView,
     TaskDetailView,
+    TaskCreateView,
+    TaskUpdateView,
+    TaskDeleteView,
     WorkerListView,
     WorkerDetailView,
+    WorkerCreateView,
+    WorkerUpdateView,
+    WorkerDeleteView,
 )
 
 urlpatterns = [
