@@ -42,7 +42,7 @@ class TaskListView(LoginRequiredMixin, generic.ListView):
         return context
 
     def get_queryset(self):
-        queryset = Task.objects.all()
+        queryset = Task.objects.select_related()
         form = TaskSearchForm(self.request.GET)
         if form.is_valid():
             return queryset.filter(
@@ -74,6 +74,7 @@ class TaskDeleteView(LoginRequiredMixin, generic.DeleteView):
 
 class WorkerListView(LoginRequiredMixin, generic.ListView):
     model = Worker
+    queryset = Worker.objects.prefetch_related("tasks")
 
 
 class WorkerDetailView(LoginRequiredMixin, generic.DetailView):
