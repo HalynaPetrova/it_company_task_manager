@@ -51,6 +51,9 @@
                 {% endfor %}
               </table>
               <br>
+              {% block pagination %}
+                {% include "includes/pagination.html" %}
+              {% endblock %}
               <br>
             </div>
           </div>
