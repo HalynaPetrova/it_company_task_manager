@@ -30,6 +30,9 @@
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
     <section class="py-sm-5 py-5 position-relative">
       <div class="container">
+        {% block search %}
+          {% include "includes/search.html" %}
+        {% endblock %}
         <br><br><br>
           <div class="row">
             <div class="col-10 mx-auto">

@@ -18,3 +18,11 @@ class WorkerForm(forms.ModelForm):
     class Meta:
         model = Worker
         fields = ("username", "first_name", "last_name", "position", "email",)
+
+
+class TaskSearchForm(forms.Form):
+    name = forms.CharField(max_length=50,
+                           required=False,
+                           label="",
+                           widget=forms.TextInput(attrs={
+                               "placeholder": "Search"}))
