@@ -10,7 +10,6 @@ from task_manager.models import Task, Worker
 
 @login_required
 def index(request):
-
     task_1 = Task.objects.filter(is_completed=False)[0]
     task_2 = Task.objects.filter(is_completed=False)[1]
     task_3 = Task.objects.filter(is_completed=False)[2]
@@ -45,8 +44,7 @@ class TaskListView(LoginRequiredMixin, generic.ListView):
         queryset = Task.objects.select_related()
         form = TaskSearchForm(self.request.GET)
         if form.is_valid():
-            return queryset.filter(
-                name__icontains=form.cleaned_data["name"])
+            return queryset.filter(name__icontains=form.cleaned_data["name"])
 
         return queryset
 
