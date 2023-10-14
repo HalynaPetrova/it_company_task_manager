@@ -31,7 +31,7 @@ class WorkerAdmin(UserAdmin):
                         "last_name",
                         "email",
                         "position",
-                        "avatar",
+                        "image",
                     )
                 },
             ),
