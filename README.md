@@ -1,5 +1,6 @@
-# it_company_task_manager
-IT Company Task Service - the task manager, wich handles all possible problems during product development in the company team.
+# IT Company Task manager
+IT Company Task Service is a task manager that solves all possible problems during product development in the company's team.
+
 ## Functionality
 
 **1. User registration**<br>
@@ -8,7 +9,7 @@ All pages is available only to registered users.
 
 **2. Section "Tasks"**
    - Shows a list of all tasks. The list is sorted by deadline and contains basic information about each task.
-   - You can use the link to see detailed description of each task, with opottunity update or delete it.
+   - You can use the link to see detailed description of each task, with opportunity update or delete it.
    - You can add a new task and assign it to team-members.
 
 **3. Section "Team"**
@@ -16,6 +17,23 @@ All pages is available only to registered users.
    - You can use the link to view detailed information about each team member, with the option to update or delete them.
    - You can add a new team-member.
 
+### How to launch the project
+
+1. Clone the repo with the command: https://github.com/HalynaPetrova/it_company_task_manager.git
+2. Install packages with pip: pip install -r requirements.txt
+3. Create database (Django default is sqlite3): python manage.py migrate
+4. Create superuser to use Django admin panel: python manage.py createsuperuser
+5. Run the project: python manage.py runserver
+
+### Click it out!
+
+[Library project deployed to Render](https://it-company-task-manager-nh7j.onrender.com//)
+
+You can login using:
+login: admin
+password: admin
+
+or you can create your own user on the start page
 
 ## Db structure
 
@@ -44,7 +62,3 @@ ___
 ___
 
 ![](https://github.com/HalynaPetrova/it_company_task_manager/assets/92261713/ad071677-28eb-4bcf-8c15-0bc3e3e942c4)
-___
-
-![](https://github.com/HalynaPetrova/it_company_task_manager/assets/92261713/8b34590c-9f15-4f6f-9882-b3a42b7f0223)
-___
