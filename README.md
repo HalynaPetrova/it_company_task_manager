@@ -27,10 +27,9 @@ All pages is available only to registered users.
 
 ### Click it out!
 
-[Library project deployed to Render](https://it-company-task-manager-nh7j.onrender.com//)
+[IT Company Task manager project deployed to Render](https://it-company-task-manager-nh7j.onrender.com)
 
-You can login using:
-login: admin
+login: admin<br>
 password: admin
 
 or you can create your own user on the start page
