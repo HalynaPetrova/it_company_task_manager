@@ -1,5 +1,7 @@
 {% extends "layouts/base.html" %}
 
+{% load static %}
+
 {% block title %} Task detail {% endblock %}
 
 {% block body_class %} task-detail {% endblock %}
@@ -54,8 +56,22 @@
                 <table class="table table-borderless" >
                   <tr>
                     {%  for worker in  task.assignees.all %}
+
+
+
+                     {% if worker.image %}
                       <th style="width:200px"><img class="avatar avatar-xl shadow-xl position-relative z-index-2" src="{{ worker.image.url }}" alt="{{ worker.username }}" loading="lazy"></th>
+                     {% else %}
+     <th style="width:200px"><img class="avatar avatar-xl shadow-xl position-relative z-index-2" src="{% static "assets/img/cat.jpg" %}" alt="{{ worker.username }}" loading="lazy"></th>
+
+                        {% endif %}
+
+
+
+
                     {% endfor %}
+
+
                       </tr><tr>
                     {%  for worker in  task.assignees.all %}
                       <th style="width:200px"><a href="{% url "task_manager:worker-detail" pk=worker.id %}">{{ worker.first_name }} {{ worker.last_name }}<br><p class="text-info"> {{ worker.position }} </p></a></th>
