@@ -27,7 +27,7 @@ All pages is available only to registered users.
 
 ### Click it out!
 
-[IT Company Task manager project deployed to Render](https://it-company-task-manager-nh7j.onrender.com
+IT Company Task manager project deployed to Render: https://it-company-task-manager-nh7j.onrender.com
 
 login: admin<br>
 password: admin
