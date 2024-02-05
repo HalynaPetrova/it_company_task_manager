@@ -27,7 +27,7 @@ All pages is available only to registered users.
 
 ### Click it out!
 
-[IT Company Task manager project deployed to Render](https://it-company-task-manager-nh7j.onrender.com)
+[IT Company Task manager project deployed to Render](https://it-company-task-manager-nh7j.onrender.com
 
 login: admin<br>
 password: admin
@@ -35,8 +35,7 @@ password: admin
 or you can create your own user on the start page
 
 ## Db structure
-
-![](https://github.com/HalynaPetrova/it_company_task_manager/assets/92261713/8d2115d9-4c72-4f75-8029-c56e64c41708)
+![social_media](https://github.com/HalynaPetrova/it_company_task_manager/assets/92261713/55ed8117-5793-4294-95ad-a732725fc1cb)
 
 ## Project picture!
 
