@@ -25,7 +25,7 @@ All pages is available only to registered users.
 4. Create superuser to use Django admin panel: python manage.py createsuperuser
 5. Run the project: python manage.py runserver
 
-### Click it out!
+### Click it out
 
 IT Company Task manager project deployed to Render: https://it-company-task-manager-nh7j.onrender.com
 
@@ -34,7 +34,7 @@ password: admin
 
 or you can create your own user on the start page
 
-## Project pictures!
+## Project pictures
 
 ![](https://github.com/HalynaPetrova/it_company_task_manager/assets/92261713/0a22f363-7566-4ec7-9d2b-8988d9d1256e)
 ___
