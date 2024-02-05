@@ -34,7 +34,7 @@ password: admin
 
 or you can create your own user on the start page
 
-## Project picture!
+## Project pictures!
 
 ![](https://github.com/HalynaPetrova/it_company_task_manager/assets/92261713/0a22f363-7566-4ec7-9d2b-8988d9d1256e)
 ___
