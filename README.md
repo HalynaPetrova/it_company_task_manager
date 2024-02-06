@@ -17,7 +17,7 @@ All pages is available only to registered users.
    - You can use the link to view detailed information about each team member, with the option to update or delete them.
    - You can add a new team-member.
 
-### How to launch the project
+## How to launch the project
 
 1. Clone the repo with the command: https://github.com/HalynaPetrova/it_company_task_manager.git
 2. Install packages with pip: pip install -r requirements.txt
@@ -25,14 +25,12 @@ All pages is available only to registered users.
 4. Create superuser to use Django admin panel: python manage.py createsuperuser
 5. Run the project: python manage.py runserver
 
-### Click it out
+## Click it out
 
 IT Company Task manager project deployed to Render: https://it-company-task-manager-nh7j.onrender.com
 
 login: admin<br>
 password: admin
-
-or you can create your own user on the start page
 
 ## Project pictures
 
